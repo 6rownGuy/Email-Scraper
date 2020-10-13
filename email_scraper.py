@@ -84,7 +84,7 @@ def num_to_str(x):
 if __name__ == "__main__":
     mail_id = input("Enter mail id: ")
     mail_pswd = input("Enter mail password: ")
-    app_date = input("Enter date of application (for the job): ")
+    app_date = input("Enter date of application for the job (dd-mm-yyyy): ")
 
     app_date = parser.parse(app_date).date()
 
